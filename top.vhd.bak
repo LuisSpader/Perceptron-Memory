@@ -1,0 +1,29 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+use ieee.std_logic_signed.all; 
+--use ieee.numeric_std.all;
+--use ieee.math_real.all;
+
+
+entity top is 
+generic (input_bit:integer:=8; output_bit:integer:=8;	 n_input:integer:=3);
+port( --clk, reset: in std_logic; 
+	x1,x2,x3: in signed(input_bit-1 downto 0); --signal
+	w1,w2,w3: in signed(input_bit-1 downto 0); --weighting
+	bias: in signed(input_bit-1 downto 0) ; -- offset
+	--pronto: out std_logic; --done flag
+	y: out signed(output_bit-1 downto 0) --output signal result
+); 
+end entity; 
+
+architecture behavior of top is
+--	signal sum : signed((input_bit+input_bit)-1 downto 0);
+-- signal s,sdx,n : signed(input_bit-1 downto 0);
+--	constant dx : real:= 0.046875;
+-- signal sx1, sx2, sx3, sw1, sw2, sw3: signed(input_bit-1 downto 0);
+	
+begin
+
+
+
+end behavior;

@@ -1,0 +1,206 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do NN_Neuron_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron_unsigned_new_1/STD_DT.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling package STD_DT
+# -- Compiling package body STD_DT
+# -- Loading package STD_DT
+# vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron_unsigned_new_1/mem.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package STD_DT
+# -- Compiling entity mem
+# -- Compiling architecture Behavioral of mem
+# vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron_unsigned_new_1/sum.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package STD_DT
+# -- Compiling entity sum
+# -- Compiling architecture behavior of sum
+# vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron_unsigned_new_1/top_no_components.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package STD_DT
+# -- Compiling entity top_no_components
+# -- Compiling architecture behavior of top_no_components
+# 
+vcom -reportprogress 300 -work work C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron_unsigned_new_1/top_tb3.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package STD_DT
+# -- Compiling entity top_tb3
+# -- Compiling architecture tb of top_tb3
+# -- Loading entity top_no_components
+vsim +altera -do NN_Neuron_run_msim_rtl_vhdl.do -l msim_transcript -gui work.top_tb3
+# vsim +altera -do NN_Neuron_run_msim_rtl_vhdl.do -l msim_transcript -gui work.top_tb3 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.std_dt(body)
+# Loading work.top_tb3(tb)
+# Loading work.top_no_components(behavior)
+# Loading ieee.math_real(body)
+# Loading work.sum(behavior)
+# Loading work.mem(behavioral)
+# do NN_Neuron_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron_unsigned_new_1/STD_DT.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling package STD_DT
+# -- Compiling package body STD_DT
+# -- Loading package STD_DT
+# vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron_unsigned_new_1/mem.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package STD_DT
+# -- Compiling entity mem
+# -- Compiling architecture Behavioral of mem
+# vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron_unsigned_new_1/sum.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package STD_DT
+# -- Compiling entity sum
+# -- Compiling architecture behavior of sum
+# vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron_unsigned_new_1/top_no_components.vhd}
+add wave -position insertpoint  \
+sim:/top_tb3/RAM_out \
+sim:/top_tb3/bias \
+sim:/top_tb3/clk \
+sim:/top_tb3/datain \
+sim:/top_tb3/div_result_out \
+sim:/top_tb3/inicio_mult \
+sim:/top_tb3/mult_result_out \
+sim:/top_tb3/pronto_div \
+sim:/top_tb3/pronto_geral \
+sim:/top_tb3/pronto_mult \
+sim:/top_tb3/reset \
+sim:/top_tb3/spronto_sum_out \
+sim:/top_tb3/sum_result_out \
+sim:/top_tb3/w1 \
+sim:/top_tb3/w2 \
+sim:/top_tb3/w3 \
+sim:/top_tb3/we \
+sim:/top_tb3/x1 \
+sim:/top_tb3/x2 \
+sim:/top_tb3/x3 \
+sim:/top_tb3/y
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package STD_DT
+# -- Compiling entity top_no_components
+# -- Compiling architecture behavior of top_no_components
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: luisa  Hostname: LUIS-LAPTOP  ProcessID: 7848
+# 
+#           Attempting to use alternate WLF file "./wlftv072ha".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftv072ha
+# 
+# 
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb3/UUT/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /top_tb3/UUT/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 1  Instance: /top_tb3/UUT/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 50 ns  Iteration: 2  Instance: /top_tb3/UUT/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70 ns  Iteration: 2  Instance: /top_tb3/UUT/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 90 ns  Iteration: 2  Instance: /top_tb3/UUT/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 110 ns  Iteration: 2  Instance: /top_tb3/UUT/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 130 ns  Iteration: 2  Instance: /top_tb3/UUT/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ns  Iteration: 2  Instance: /top_tb3/UUT/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 170 ns  Iteration: 2  Instance: /top_tb3/UUT/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 190 ns  Iteration: 2  Instance: /top_tb3/UUT/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 210 ns  Iteration: 2  Instance: /top_tb3/UUT/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 230 ns  Iteration: 2  Instance: /top_tb3/UUT/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 250 ns  Iteration: 2  Instance: /top_tb3/UUT/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 270 ns  Iteration: 2  Instance: /top_tb3/UUT/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 290 ns  Iteration: 2  Instance: /top_tb3/UUT/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 310 ns  Iteration: 2  Instance: /top_tb3/UUT/memory

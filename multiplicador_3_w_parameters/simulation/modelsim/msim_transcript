@@ -1,0 +1,171 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do multiplicador_3_8bit_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {multiplicador_3_8bit.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity multiplicador_3_8bit
+# -- Compiling architecture structure of multiplicador_3_8bit
+# 
+vsim +altera -do multiplicador_3_8bit_run_msim_gate_vhdl.do -l msim_transcript -gui -sdftyp {/=C:/Users/luisa/Documents/Materias/UFSC/20201/Sistemas digitais - INE5406 - 05235A/LAB Sist digitais/multiplicadores/multiplicador_3_novo/multiplicador_3_8bit/simulation/modelsim/multiplicador_3_8bit_vhd.sdo} work.multiplicador_3_8bit
+# vsim +altera -do multiplicador_3_8bit_run_msim_gate_vhdl.do -l msim_transcript -gui -sdftyp {/=C:/Users/luisa/Documents/Materias/UFSC/20201/Sistemas digitais - INE5406 - 05235A/LAB Sist digitais/multiplicadores/multiplicador_3_novo/multiplicador_3_8bit/simulation/modelsim/multiplicador_3_8bit_vhd.sdo} work.multiplicador_3_8bit 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.multiplicador_3_8bit(structure)
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# usage: sdfcom [ options ] source-file output-file
+# 
+# Options:
+# 
+#   -mindelays          Use minimum timing from min:typ:max expressions
+# 
+#   -typdelays          Use typical timing from min:typ:max expressions (default)
+# 
+#   -maxdelays          Use maximum timing from min:typ:max expressions
+# 
+#   -delayscale <val>   Scale delays by the specified value
+# 
+#   -nocompress         Don't compress the resulting output file
+# 
+#   -suppress <msg(s)>  Suppress comma-separed list of error/warning messages
+# 
+# Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
+# Loading cycloneii.cycloneii_and1(altvital)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
+# Loading cycloneii.cycloneii_ena_reg(behave)
+# ** Warning: Design size of 2 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /multiplicador_3_8bit File: multiplicador_3_8bit.vho
+# do multiplicador_3_8bit_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {multiplicador_3_8bit.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity multiplicador_3_8bit
+# -- Compiling architecture structure of multiplicador_3_8bit
+# 
+vsim +altera -do multiplicador_3_8bit_run_msim_gate_vhdl.do -l msim_transcript -gui -sdftyp {/=C:/Users/luisa/Documents/Materias/UFSC/20201/Sistemas digitais - INE5406 - 05235A/LAB Sist digitais/multiplicadores/multiplicador_3_novo/multiplicador_3_8bit/simulation/modelsim/multiplicador_3_8bit_vhd.sdo} work.multiplicador_3_8bit
+# vsim +altera -do multiplicador_3_8bit_run_msim_gate_vhdl.do -l msim_transcript -gui -sdftyp {/=C:/Users/luisa/Documents/Materias/UFSC/20201/Sistemas digitais - INE5406 - 05235A/LAB Sist digitais/multiplicadores/multiplicador_3_novo/multiplicador_3_8bit/simulation/modelsim/multiplicador_3_8bit_vhd.sdo} work.multiplicador_3_8bit 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.multiplicador_3_8bit(structure)
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# usage: sdfcom [ options ] source-file output-file
+# 
+# Options:
+# 
+#   -mindelays          Use minimum timing from min:typ:max expressions
+# 
+#   -typdelays          Use typical timing from min:typ:max expressions (default)
+# 
+#   -maxdelays          Use maximum timing from min:typ:max expressions
+# 
+#   -delayscale <val>   Scale delays by the specified value
+# 
+#   -nocompress         Don't compress the resulting output file
+# 
+#   -suppress <msg(s)>  Suppress comma-separed list of error/warning messages
+# 
+# Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
+# Loading cycloneii.cycloneii_and1(altvital)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
+# Loading cycloneii.cycloneii_ena_reg(behave)
+# ** Warning: Design size of 2 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /multiplicador_3_8bit File: multiplicador_3_8bit.vho
+# do multiplicador_3_8bit_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {multiplicador_3_8bit.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity multiplicador_3_8bit
+# -- Compiling architecture structure of multiplicador_3_8bit
+# 
+add wave -position insertpoint  \
+sim:/multiplicador_3_8bit/clk \
+sim:/multiplicador_3_8bit/reset \
+sim:/multiplicador_3_8bit/entA \
+sim:/multiplicador_3_8bit/entB \
+sim:/multiplicador_3_8bit/inicio \
+sim:/multiplicador_3_8bit/pronto \
+sim:/multiplicador_3_8bit/saida
+run
+do {C:/Users/luisa/Documents/Materias/UFSC/20201/Sistemas digitais - INE5406 - 05235A/LAB Sist digitais/multiplicadores/multiplicador_3_novo/multiplicador_3_8bit/simulation/modelsim/stimulus_multiplicador3_8bit.do}
+# ** Error: (vish-4008) Object '/cmult' not found.
+# Error in macro C:\Users\luisa\Documents\Materias\UFSC\20201\Sistemas digitais - INE5406 - 05235A\LAB Sist digitais\multiplicadores\multiplicador_3_novo\multiplicador_3_8bit\simulation\modelsim\stimulus_multiplicador3_8bit.do line 4
+# ** Error: (vish-4008) Object '/cmult' not found.
+# 
+#     while executing
+# "force /cmult 0 0ns, 1 40ns -r 40ns"
+run
+do {C:/Users/luisa/Documents/Materias/UFSC/20201/Sistemas digitais - INE5406 - 05235A/LAB Sist digitais/multiplicadores/multiplicador_3_novo/multiplicador_3_8bit/simulation/modelsim/stimulus_multiplicador3_8bit.do}
+run
+do {C:/Users/luisa/Documents/Materias/UFSC/20201/Sistemas digitais - INE5406 - 05235A/LAB Sist digitais/multiplicadores/multiplicador_3_novo/multiplicador_3_8bit/simulation/modelsim/stimulus_multiplicador3_8bit.do}
+run

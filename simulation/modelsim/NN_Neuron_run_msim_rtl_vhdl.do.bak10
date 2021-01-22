@@ -1,0 +1,32 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron/multiplicador3_ov_w_parameters/bc.vhd}
+vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron/STD_DT.vhd}
+vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron/divisor/Divisor/Divisor/bc_div.vhd}
+vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron/divisor/Divisor/Divisor/maiorigual.vhd}
+vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron/divisor/Divisor/Divisor/divisor.vhd}
+vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron/multiplicador3_ov_w_parameters/subtrator.vhd}
+vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron/multiplicador3_ov_w_parameters/somador.vhd}
+vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron/multiplicador3_ov_w_parameters/registrador_8b.vhd}
+vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron/multiplicador3_ov_w_parameters/registrador.vhd}
+vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron/multiplicador3_ov_w_parameters/mux2para1_8b.vhd}
+vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron/multiplicador3_ov_w_parameters/mux2para1.vhd}
+vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron/multiplicador3_ov_w_parameters/multiplicador_3.vhd}
+vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron/multiplicador3_ov_w_parameters/igualazero_8b.vhd}
+vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron/multiplicador3_ov_w_parameters/igualazero.vhd}
+vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron/multiplicador3_ov_w_parameters/bo.vhd}
+vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron/top.vhd}
+vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron/mem.vhd}
+vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron/sum.vhd}
+vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron/divisor/Divisor/Divisor/bo_div.vhd}
+vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron/divisor/Divisor/Divisor/somador_div.vhd}
+vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron/divisor/Divisor/Divisor/mux2para1_div.vhd}
+vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron/divisor/Divisor/Divisor/registrador_div.vhd}
+vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron/divisor/Divisor/Divisor/igualazero_div.vhd}
+vcom -93 -work work {C:/Users/luisa/Documents/Materias/UFSC/20201/Lab-EBD_ECL/NN_Neuron/divisor/Divisor/Divisor/subtrator_div.vhd}
+

@@ -1,0 +1,35 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+package STD_DT is
+function log2_unsigned (x: natural) return natural;
+
+constant NUM_CLASSIF: integer := 5;
+constant WIDTH_FEAT: integer := 16;
+constant WIDTH_DATA: integer:= WIDTH_FEAT*2+1;
+constant NUM_NODES: integer := 18;
+constant LINES_MEM: natural := 64;
+constant BITS_ADDR: integer := 6;
+type ram_type is array (0 to LINES_MEM-1) of STD_LOGIC_VECTOR(WIDTH_DATA-1 downto 0);
+
+end STD_DT;
+
+package body STD_DT is
+
+function log2_unsigned (x: natural) return natural is
+	variable temp: natural := x;
+	variable n: natural := 0;
+	begin
+		if temp = 1 then
+			return n;
+		else
+			while temp > 1 loop
+				temp := temp / 2;
+				n := n + 1;
+			end loop;
+		end if;
+		return n;
+end function log2_unsigned;
+
+end STD_DT;

@@ -1,0 +1,48 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\luisa\Documents\Materias\UFSC\20201\Sistemas digitais - INE5406 - 05235A\LAB Sist digitais\multiplicadores\multiplicador_3_novo\multiplicador_3_8bit\simulation\modelsim
+Emultiplicador_3_8bit
+Z1 w1605127405
+Z2 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z3 DPx9 cycloneii 19 cycloneii_atom_pack 0 22 zUjlM<IUJVWSWg:L2<>ic3
+Z4 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 DPx9 cycloneii 20 cycloneii_components 0 22 h@gSJ;Al32oYg[7^PbnAR0
+Z8 dC:\Users\luisa\Documents\Materias\UFSC\20201\Sistemas digitais - INE5406 - 05235A\LAB Sist digitais\multiplicadores\multiplicador_3_novo\multiplicador_3_8bit\simulation\modelsim
+Z9 8multiplicador_3_8bit.vho
+Z10 Fmultiplicador_3_8bit.vho
+l0
+L34
+VBBHojnb_h]WdbUXo3aiWE2
+!s100 zLAl4D3jK[bm1W>::7Kc?3
+Z11 OV;C;10.1d;51
+31
+!i10b 1
+Z12 !s108 1605127607.517000
+Z13 !s90 -reportprogress|300|-93|-work|work|multiplicador_3_8bit.vho|
+Z14 !s107 multiplicador_3_8bit.vho|
+Z15 o-93 -work work -O0
+Z16 tExplicit 1
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 20 multiplicador_3_8bit 0 22 BBHojnb_h]WdbUXo3aiWE2
+l156
+L77
+Voj=0[lUI@R5aTlVJf<2HS1
+!s100 z[OjHWin5=JPW4o0^7Pij0
+R11
+31
+!i10b 1
+R12
+R13
+R14
+R15
+R16

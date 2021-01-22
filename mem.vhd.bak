@@ -1,0 +1,52 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+use IEEE.NUMERIC_STD.ALL;
+use work.STD_DT.ALL;
+
+entity mem is
+	Port(
+		RST: in STD_LOGIC;
+		CLK: in STD_LOGIC;
+		we: in STD_LOGIC;
+		address: in STD_LOGIC_VECTOR(BITS_ADDR-1 downto 0);
+		datain: in STD_LOGIC_VECTOR(WIDTH_DATA-1 downto 0);
+		dataout: out STD_LOGIC_VECTOR(WIDTH_DATA-1 downto 0)
+	);
+end mem;
+
+architecture Behavioral of mem is
+
+signal ram: ram_type;
+signal read_address: STD_LOGIC_VECTOR(BITS_ADDR-1 downto 0);
+
+begin
+
+process(RST, CLK, we)
+begin
+	if(RST = '1') then
+		for i in 0 to LINES_MEM - 1 loop
+			ram(i) <= (OTHERS => '0');
+		end loop;
+	elsif(CLK'event and CLK = '1') then
+		if(we = '1') then
+			ram(to_integer(unsigned(address))) <= datain;
+		end if;
+		read_address <= address;
+	end if;
+end process;
+
+dataout_1 <= ram(to_integer(unsigned(read_address)));
+dataout_2 <= ram(to_integer(unsigned(read_address))) + "0001";
+dataout_3 <= ram(to_integer(unsigned(read_address))) + "0010";
+dataout_4 <= ram(to_integer(unsigned(read_address))) + "0011";
+dataout_5 <= ram(to_integer(unsigned(read_address))) + "0100";
+dataout_6 <= ram(to_integer(unsigned(read_address))) + "0101";
+dataout_7 <= ram(to_integer(unsigned(read_address))) + "0110";
+dataout_8 <= ram(to_integer(unsigned(read_address))) + "0111";
+dataout_9 <= ram(to_integer(unsigned(read_address))) + "1000";
+dataout_10 <= ram(to_integer(unsigned(read_address))) + "1001";
+dataout_11 <= ram(to_integer(unsigned(read_address))) + "1010";
+dataout_12 <= ram(to_integer(unsigned(read_address))) + "1011";
+
+end Behavioral;

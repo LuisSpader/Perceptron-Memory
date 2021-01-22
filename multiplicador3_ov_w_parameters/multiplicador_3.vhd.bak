@@ -1,0 +1,42 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity multiplicador_3 is
+
+port( 
+	clk, reset: in std_logic;
+	entA, entB: in std_LOGIC_VECTOR (3 downto 0);
+	inicio: in std_logic;
+	pronto: out std_logic;
+	saida, saidaP: out std_LOGIC_VECTOR (3 downto 0)
+);
+
+
+end entity;
+
+architecture bhv of multiplicador_3 is
+component bo is
+	port (clk : IN STD_LOGIC;
+      cB, cA, cmult : IN STD_LOGIC;
+      entA, entB : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+      Az, Bz : OUT STD_LOGIC;
+      mult, saidaP: OUT STD_LOGIC_VECTOR(3 DOWNTO 0));
+end component;
+
+component bc is
+	port (Reset, clk, inicio : IN STD_LOGIC;
+      Az, Bz : IN STD_LOGIC;
+      pronto : OUT STD_LOGIC;
+      CA, CB, cmult : OUT STD_LOGIC );
+end component;
+
+signal cargaA, cargaB, cargaMult, az, bz : std_logic;
+
+begin
+
+	BlocoOperativo: bo port map (clk , cargaB, cargaA, cargaMult, entA, entB, az, bz, saida, saidaP);
+	
+   BlocoControle: bc port map (reset, clk, inicio, az, bz, pronto, cargaA, cargaB, cargaMult);
+
+
+end architecture;

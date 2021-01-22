@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="NN_Neuron">
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_no_components|lpm_mult:Mult0" CBX_FILE_NAME="mult_o5t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_no_components|sum:sum_all|lpm_mult:Mult0" CBX_FILE_NAME="mult_14t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_no_components|sum:sum_all|lpm_mult:Mult1" CBX_FILE_NAME="mult_14t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_no_components|sum:sum_all|lpm_mult:Mult2" CBX_FILE_NAME="mult_14t.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
